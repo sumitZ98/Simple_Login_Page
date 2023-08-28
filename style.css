@@ -1,0 +1,82 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+div p{
+    font-size: 25px;
+    color:white;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    height: 80vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 48px;
+    gap: 32px;
+}
+.content .l-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.content .l-content h1{
+    color: blue;
+}
+.content .l-content p{
+    font-size: 1.2rem;
+}
+.content .r-content form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 8px 10px 5px rgb(55, 54, 54); 
+}
+.content .r-content form a{
+    padding-bottom: 10px;
+    border-bottom: 2px dotted black;
+
+}
+.footer{
+    height: 20vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .r-content form input{
+    height: 30px;
+    border-radius: 5px;
+}
+.content .r-content form .login{
+    height: 30px;
+    background-color: rgb(59, 103, 222);
+    color: white;
+}
+.content .r-content form .new-account{
+    height: 35px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: greenyellow;
+}
